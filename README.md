@@ -1,2 +1,1 @@
-# CodeGym
-# CodeGym
+Ejercicios de # CodeGym
