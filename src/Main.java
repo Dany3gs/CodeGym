@@ -1,4 +1,4 @@
-import java.io.PrintStream;
+
 import java.util.Scanner;
 
 //Integer.parseInt(); con este método convertimos una cadena String en un int
