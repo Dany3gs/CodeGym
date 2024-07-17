@@ -30,23 +30,22 @@ import java.util.Scanner;
 
 public class SegundoNumMenor {
     public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
 
-    Scanner console = new Scanner(System.in);
-
-    int numMin = 0;
+        int numMin1 = Integer.MAX_VALUE;
+        int numMin2 = Integer.MAX_VALUE;
 
         while (console.hasNextInt()) {
-        int num1 = console.nextInt();
-        int num2 = console.nextInt();
+            int num = console.nextInt();
 
-        if (num1 < num2) {
-            numMin = num1;
-
-        } if (num2 < num1) {
-                numMin = num2;
-
+            if (num < numMin1) {
+                numMin2 = numMin1;
+                numMin1 = num;
+            } else if (num > numMin1 && num < numMin2) {
+                numMin2 = num;
+            }
         }
-       }System.out.println(numMin);
-
+        System.out.println(numMin2);
     }
 }
+// ok CodeGym
