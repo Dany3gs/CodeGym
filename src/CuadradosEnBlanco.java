@@ -23,20 +23,20 @@ public class CuadradosEnBlanco {
 
     int outer = 0;
 
-        while (outer < 1) {
-            System.out.println("BBBBBBBBBBBBBBBBBBBB");
+            while (outer < 1) {
+                System.out.println("BBBBBBBBBBBBBBBBBBBB");
 
-        int inner = 0;
+            int inner = 0;
 
-             while (inner < 8) {
+                while (inner < 8) {
 
-            System.out.println("B                  B");
-            inner++;
+                System.out.println("B                  B");
+                inner++;
+            }
+            outer++;
+                System.out.println("BBBBBBBBBBBBBBBBBBBB");
         }
-        outer++;
-            System.out.println("BBBBBBBBBBBBBBBBBBBB");
     }
-  }
 }
 
 //Ok en CodeGym
