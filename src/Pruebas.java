@@ -7,13 +7,10 @@ public class Pruebas {
     public static void main(String[] args) {
         //escribe aquí tu código
         Scanner scanner = new Scanner(System.in);
-        String string = scanner.nextLine();
-        int number = scanner.nextInt();
-
-        do {
-            System.out.println(string);
-            number--;
-        } while (number > 0 && number < 10);
+        int x = 5;
+        int y = 2;
+        double div = x * y ;
+        System.out.println(div);
     }
 }
 
