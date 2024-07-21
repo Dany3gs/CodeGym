@@ -5,9 +5,8 @@ public class Pruebas {
     public static void main(String[] args) {
         //escribe aquí tu código
         Scanner scanner = new Scanner(System.in);
-        int x = 5;
-        int y = 3;
-        double div = x / y;
+
+        double div = 4.4;
         int res = (int) Math.floor(div);
         int res1 = (int) Math.ceil(div);
         int res2 = (int) Math.round(div);
