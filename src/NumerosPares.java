@@ -17,3 +17,9 @@ public class NumerosPares {
     }
 }
 // ok en CodeGym
+
+/*Otra forma de sacar los números impares es iterando i +=2
+        for(int i = 1; i <= 15; i+= 2) {
+                System.out.println(i);
+                //output 1 3 5 7 9 11 13 15
+* */
