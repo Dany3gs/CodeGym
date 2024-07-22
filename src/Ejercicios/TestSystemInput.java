@@ -17,11 +17,11 @@ public class TestSystemInput {
 
         for (int i = 0; i < totalCourses; i++) {
             System.out.println("Entre la nota de cada exámen:  " + (i + 1) + " : ");
-                finalScore = finalScore + scanner.nextInt();
-            }
+            finalScore = finalScore + scanner.nextInt();
+        }
 
-            System.out.println("Tu nota final es: " + (finalScore / totalCourses));
-            scanner.close();
+        System.out.println("Tu nota final es: " + (finalScore / totalCourses));
+        scanner.close();
     }
 
     public static void main(String[] args) {

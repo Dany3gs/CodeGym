@@ -45,12 +45,13 @@ Requisitos:
 public class DibujarPantalla {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             int startCounter = 1 + i;
             for (int j = 0; j < startCounter; j++) {
                 System.out.print("8");
 
-            } System.out.println();
+            }
+            System.out.println();
         }
     }
 }

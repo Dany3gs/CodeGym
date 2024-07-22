@@ -17,6 +17,7 @@ Requisitos:
 
 
 import java.util.Scanner;
+
 public class VelocidadDelViento {
     public static void main(String[] args) {
 

@@ -9,12 +9,13 @@ public class ContarNumLineas {
         Scanner sc = new Scanner(System.in);
         int count = 0;
 
-        for (int i = 0; i <10; i++) {
+        for (int i = 0; i < 10; i++) {
 
             if (sc.hasNextInt()) {
                 count++;
                 sc.nextInt();
             }
-        } System.out.println(count);
+        }
+        System.out.println(count);
     }
 }

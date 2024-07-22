@@ -31,11 +31,11 @@ public class AreaCiruclo {
         int radio;
         radio = sc.nextInt();
         double area = 3.14 * radio * radio;
-        int areaInt = (int)(area);
-        if (radio < 0){
+        int areaInt = (int) (area);
+        if (radio < 0) {
             System.out.println();
 
-        }else {
+        } else {
             System.out.println(areaInt);
         }
 

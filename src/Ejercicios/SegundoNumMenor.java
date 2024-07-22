@@ -1,6 +1,6 @@
 package Ejercicios; /**
  * En esta tarea, debes:
-
+ * <p>
  * Leer números enteros desde el teclado hasta que se ingrese otra cosa, como una cadena o un carácter.
  * Al menos dos números deben ser ingresados. Si se ingresan menos de dos números enteros, luego termine
  * el programa con un error. No necesitas manejar esta situación.
@@ -18,7 +18,7 @@ package Ejercicios; /**
  * exit
  * Ejemplo de salida:
  * 5
-
+ * <p>
  * Requisitos:
  * •	El programa deberá leer números desde el teclado.
  * •	El programa deberá mostrar un número en pantalla.
@@ -26,6 +26,7 @@ package Ejercicios; /**
  * •	Si se introducen varios segundos números más pequeños, entonces deberá mostrar cualquiera de ellos.
  * •	Deberá leer los datos desde el teclado en un ciclo while.
  */
+
 import java.util.Scanner;
 
 public class SegundoNumMenor {

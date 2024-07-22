@@ -20,12 +20,12 @@ import java.util.Scanner;
 public class Triangulo {
     public static void main(String[] args) {
 
-    int num1 = 0, num2 = 0, num3 = 0;
-    Scanner sc = new Scanner(System.in);
+        int num1 = 0, num2 = 0, num3 = 0;
+        Scanner sc = new Scanner(System.in);
         System.out.println("ingrese tres longitudes: ");
-    num1 = sc.nextInt();
-    num2 = sc.nextInt();
-    num3 = sc.nextInt();
-    
- }
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        num3 = sc.nextInt();
+
+    }
 }

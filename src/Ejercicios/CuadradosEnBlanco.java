@@ -21,20 +21,20 @@ Requisitos:
 public class CuadradosEnBlanco {
     public static void main(String[] args) {
 
-    int outer = 0;
+        int outer = 0;
 
-            while (outer < 1) {
-                System.out.println("BBBBBBBBBBBBBBBBBBBB");
+        while (outer < 1) {
+            System.out.println("BBBBBBBBBBBBBBBBBBBB");
 
             int inner = 0;
 
-                while (inner < 8) {
+            while (inner < 8) {
 
                 System.out.println("B                  B");
                 inner++;
             }
             outer++;
-                System.out.println("BBBBBBBBBBBBBBBBBBBB");
+            System.out.println("BBBBBBBBBBBBBBBBBBBB");
         }
     }
 }

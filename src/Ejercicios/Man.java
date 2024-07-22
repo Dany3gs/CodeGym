@@ -4,7 +4,7 @@ public class Man {
     String dnaCode;
 
     public boolean equals(Man man) {
-        return this.dnaCode ==  man.dnaCode;
+        return this.dnaCode == man.dnaCode;
 
     }
 

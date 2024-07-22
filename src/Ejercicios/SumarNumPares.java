@@ -24,15 +24,16 @@ public class SumarNumPares {
             if (j % multiple != 0) {
                 continue;
 
-            }  System.out.println(j);
+            }
+            System.out.println(j);
         }
         for (int i = 0; i < end; i++) {
-                if (i % multiple != 0) {
-                    continue;
-                }
-                sum += i;
+            if (i % multiple != 0) {
+                continue;
             }
-            System.out.println(sum);
+            sum += i;
+        }
+        System.out.println(sum);
 
     }
 }

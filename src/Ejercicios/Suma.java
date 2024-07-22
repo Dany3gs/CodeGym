@@ -11,28 +11,28 @@ import java.util.SortedMap;
 
 public class Suma {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-            //asignamos la variable line para la entrada de usuario
-            int suma =0;
-            int num;
-            String line;
+        //asignamos la variable line para la entrada de usuario
+        int suma = 0;
+        int num;
+        String line;
 
-            //la condición para el while indica que mientras line sea diferente a "ENTER", no salga del bucle
-            //se puede indicar la condición completa en el while
-            System.out.println("Indique la lista de números que quiere sumar y luego escriba Enter para tener el total: ");
-            while (!(line = sc.nextLine()).equalsIgnoreCase("ENTER")) {
-                //con Integer.parseInt(line); cambiamos la entrada del usuario "line", que entra"" a int, para que pueda
-                //hacer el cálculo la suma, que suma si es int
+        //la condición para el while indica que mientras line sea diferente a "ENTER", no salga del bucle
+        //se puede indicar la condición completa en el while
+        System.out.println("Indique la lista de números que quiere sumar y luego escriba Enter para tener el total: ");
+        while (!(line = sc.nextLine()).equalsIgnoreCase("ENTER")) {
+            //con Integer.parseInt(line); cambiamos la entrada del usuario "line", que entra"" a int, para que pueda
+            //hacer el cálculo la suma, que suma si es int
 
-                num= Integer.parseInt(line);
-                suma+=num;
-            }
-            System.out.println("La suma de los números indicados es: " + suma);
+            num = Integer.parseInt(line);
+            suma += num;
         }
+        System.out.println("La suma de los números indicados es: " + suma);
     }
+}
 
 /*Esta es la solución que aporta CodeGym, no estaba tan desencaminado cuando empece, otra opción de como solucionarlo
 

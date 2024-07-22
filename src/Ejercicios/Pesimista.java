@@ -34,9 +34,9 @@ public class Pesimista {
         boolean pesimista = false;
         boolean state;
 
-       state = sc.nextBoolean();
+        state = sc.nextBoolean();
         if (state == pesimista) {
-           glassFalse = (int) (Math.floor(glass));
+            glassFalse = (int) (Math.floor(glass));
             System.out.println(glassFalse);
         } else {
             glassTrue = (int) (Math.ceil(glass));

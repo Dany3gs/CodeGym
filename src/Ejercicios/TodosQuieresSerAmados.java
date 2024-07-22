@@ -23,20 +23,20 @@ import java.util.Scanner;
 public class TodosQuieresSerAmados {
 
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-            String text = " loves me.";
+        String text = " loves me.";
 
-            System.out.println("Escribe Regina");
-            String name = sc.nextLine();
-            int num = 0;
+        System.out.println("Escribe Regina");
+        String name = sc.nextLine();
+        int num = 0;
 
-            while (num < 10) {
-                System.out.println(name + text);
-                num++;
-            }
-  }
+        while (num < 10) {
+            System.out.println(name + text);
+            num++;
+        }
+    }
 }
 
