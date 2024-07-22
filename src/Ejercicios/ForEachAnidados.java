@@ -1,4 +1,4 @@
-//ejemplo de for each anidado un bucle que itera una matriz bidimensional
+package Ejercicios;//ejemplo de for each anidado un bucle que itera una matriz bidimensional
 
 public class ForEachAnidados {
     public static void main(String[] args)

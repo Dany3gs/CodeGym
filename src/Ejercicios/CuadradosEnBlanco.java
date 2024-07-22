@@ -1,4 +1,4 @@
-/*La parte no rellena consiste en espacios en blanco.
+package Ejercicios;/*La parte no rellena consiste en espacios en blanco.
 
 Ejemplo de salida:
 BBBBBBBBBBBBBBBBBBBB

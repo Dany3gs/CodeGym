@@ -1,4 +1,4 @@
-/*Escribamos un programa que lea 10líneas del teclado y muestre el número de líneas que eran números*/
+package Ejercicios;/*Escribamos un programa que lea 10líneas del teclado y muestre el número de líneas que eran números*/
 
 import java.util.Scanner;
 

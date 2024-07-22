@@ -1,4 +1,4 @@
-/*
+package Ejercicios;/*
 En esta tarea, debes:
 
 Usar el teclado para leer una cadena y un número (number variable) que sea mayor que 0 y menor que 5.

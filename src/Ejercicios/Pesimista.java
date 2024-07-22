@@ -1,4 +1,4 @@
-/*En el método main() hay una variable double vaso = 0,5 , que simboliza un vaso medio lleno. Para un pesimista está
+package Ejercicios;/*En el método main() hay una variable double vaso = 0,5 , que simboliza un vaso medio lleno. Para un pesimista está
 medio vacío y para un optimista está medio lleno.
 Es necesario leer datos de tipo boolean desde el teclado usando el método nextBoolean() de un objeto de tipo Scanner.
 Dependiendo de los datos recibidos, redondee la variable de vidrio: a un número entero hacia abajo (0), si el pesimista

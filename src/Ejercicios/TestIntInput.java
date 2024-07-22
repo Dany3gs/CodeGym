@@ -1,3 +1,5 @@
+package Ejercicios;
+
 import java.util.Scanner;
 
 //ejemplo de como escanear y analizar entrada de texto y marcar los int con un sout

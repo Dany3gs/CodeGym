@@ -1,4 +1,4 @@
-/*Escribamos un programa que dibuje un triángulo en la pantalla. La primera línea consta de 10asteriscos, la segunda — 9asteriscos, luego 8, etc.
+package Ejercicios;/*Escribamos un programa que dibuje un triángulo en la pantalla. La primera línea consta de 10asteriscos, la segunda — 9asteriscos, luego 8, etc.
 *
 *  for (int i = 0; i < 10; i++){
             int startCounter = 10 - i;

@@ -1,4 +1,4 @@
-/*
+package Ejercicios;/*
 El programa debe leer números enteros desde el teclado hasta que se ingrese otra cosa, como una cadena o un carácter. Muestre el número mínimo ingresado. Si se ingresan varios números, debe mostrar cualquiera de ellos.
 Ejemplo de entrada:
 8

@@ -1,4 +1,4 @@
-
+package Ejercicios;
 /*Para resolver este problema, necesita:
 
 Leer un entero positivo radio desde el teclado. Esto representa el radio de un círculo.

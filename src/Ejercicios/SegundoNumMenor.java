@@ -1,4 +1,4 @@
-/**
+package Ejercicios; /**
  * En esta tarea, debes:
 
  * Leer números enteros desde el teclado hasta que se ingrese otra cosa, como una cadena o un carácter.

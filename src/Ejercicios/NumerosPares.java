@@ -1,4 +1,4 @@
-/*Escribe un programa que use un for loop para mostrar los números pares en el rango de 1 a 15.
+package Ejercicios;/*Escribe un programa que use un for loop para mostrar los números pares en el rango de 1 a 15.
 Cada valor debe mostrarse en una nueva línea.
 Requisitos:
 •	El programa debe mostrar texto en pantalla.

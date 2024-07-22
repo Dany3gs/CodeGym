@@ -1,4 +1,4 @@
-/*
+package Ejercicios;/*
 Escribamos un programa que lea números enteros desde el teclado y calcule su suma hasta que el usuario ingrese la palabra "ENTER".
 Muestra la suma y finaliza el programa.
 Requisitos:

@@ -1,4 +1,4 @@
-/*Vamos a escribir un programa que calcule la posibilidad de la existencia de un triángulo basado en las longitudes
+package Ejercicios;/*Vamos a escribir un programa que calcule la posibilidad de la existencia de un triángulo basado en las longitudes
 de sus lados.
 
 Para hacer esto, necesitas:

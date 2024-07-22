@@ -1,4 +1,4 @@
-/*Por lo general, la velocidad del viento se indica en m/s y no siempre está claro qué tan alto o bajo es.
+package Ejercicios;/*Por lo general, la velocidad del viento se indica en m/s y no siempre está claro qué tan alto o bajo es.
 Es más común ver el valor de la velocidad en km/h, como un coche, una bicicleta u otro vehículo.
 Por lo tanto, haremos un conversor de valores de velocidad de m/s a km/h.
 

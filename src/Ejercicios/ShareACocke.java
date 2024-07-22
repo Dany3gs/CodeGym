@@ -1,4 +1,4 @@
-/*Compartamos una lata de Coca Cola en el trabajo. Para hacer esto, vamos a escribir un programa con estos requisitos:
+package Ejercicios;/*Compartamos una lata de Coca Cola en el trabajo. Para hacer esto, vamos a escribir un programa con estos requisitos:
 Necesitas leer dos números enteros desde el teclado. El primer número es el número de latas de Coca Cola en una lata.
 El segundo es el número de personas en la oficina.
 Muestra el resultado de dividir el primer número entre el segundo.

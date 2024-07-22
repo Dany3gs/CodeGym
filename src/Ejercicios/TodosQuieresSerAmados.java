@@ -1,4 +1,4 @@
-/*
+package Ejercicios;/*
 * Lea un nombre desde el teclado y luego, usando un while loop, muestre <name> loves me (la variable text) 10 veces.
 Cada instancia de la frase debe estar en una nueva línea.
 Ejemplo de la salida de pantalla para el nombre "Regina":

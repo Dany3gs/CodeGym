@@ -1,4 +1,4 @@
-/*Usando bucles while anidados (un bucle dentro de otro bucle), muestre un cuadrado de 5 (altura) por 10 (anchura)
+package Ejercicios;/*Usando bucles while anidados (un bucle dentro de otro bucle), muestre un cuadrado de 5 (altura) por 10 (anchura)
 relleno con la letra 'Q'.
 
 Ejemplo de salida:

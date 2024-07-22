@@ -1,4 +1,4 @@
-/*El método main lee 3 enteros desde el teclado: start, end y multiple.
+package Ejercicios;/*El método main lee 3 enteros desde el teclado: start, end y multiple.
 Actualice el programa para que la pantalla muestre la suma de los múltiplos de la variable multiple en el rango de start
  (incluido) a end (no incluido).
 Use un for ciclo para hacer esto.
