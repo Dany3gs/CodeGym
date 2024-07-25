@@ -1,27 +1,27 @@
 package Ejercicios;
 
 import java.util.Scanner;
+import java.util.SortedMap;
 
 public class Pruebas {
-    public static final String ODD = "Odd";
-    public static final String EVEN = "Even";
-    public static String[] strings = new String[5];
 
     public static void main(String[] args) {
         //escribe aquí tu código
 
-        System.out.print("index = 0");
-        System.out.println(" value = " + strings[0]);
-        System.out.print("index = 1");
-        System.out.println(" value = " + strings[1]);
-        System.out.print("index = 2");
-        System.out.println(" value = " + strings[2]);
-        System.out.print("index = 3");
-        System.out.println(" value = " + strings[3]);
-        System.out.print("index = 4");
-        System.out.println(" value = " + strings[4]);
+    Scanner sc = new Scanner(System.in);
+
+        System.out.println("introduce 10 números, se mostrarán los valores a la inversa:");
+
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+        for (int i = 9; i >= 0; i--) {
+            System.out.println(array[i]);
+        }
     }
 }
+// int min = array[0]; //esto indica que min cogerá el valor de la celda 0 del array
 
 
 
