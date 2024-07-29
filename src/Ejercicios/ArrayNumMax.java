@@ -23,7 +23,6 @@ public class ArrayNumMax {
             if (numMax < array[i]) {
                 numMax = array[i];
             }
-
         }
         System.out.println(numMax);
         sc.close();
