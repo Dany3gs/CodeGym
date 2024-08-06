@@ -21,7 +21,8 @@ public class Pruebas {
         }
     }
 }
-// int min = array[0]; //esto indica que min cogerá el valor de la celda 0 del array
+// int min = array[0]; //esto indica que min cogerá el valor de la celda 0 del array.
+//mirar los arrays
 
 
 
