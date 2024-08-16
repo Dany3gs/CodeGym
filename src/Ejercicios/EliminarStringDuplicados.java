@@ -1,5 +1,5 @@
-//Este ejercicio no conseguí hacerlo, no llegué a ver como sustituir las palabras repetidas, o eliminarlas para que
-//la cambiara por null, anoto paso a paso para tenerlo en cuenta para prácticar.
+/*Este ejercicio no conseguí hacerlo, no llegué a ver como sustituir las palabras repetidas, o eliminarlas para que
+la cambiara por null, anoto paso a paso para tenerlo en cuenta para prácticar.*/
 
 package Ejercicios;
 
