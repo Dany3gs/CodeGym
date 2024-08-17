@@ -1,7 +1,8 @@
 
 <p align="center" width="200">
-<img align="center" width="200" src="C:\Users\dsmmg\Pictures\Screenshots\Arrays-Java.png">
+<img align="center" width=absolute src="https://github.com/user-attachments/assets/421e9eb0-8ab0-4845-b2e9-b4a000f616bd">
 </p>
+
 
 <h2> Tabla de Suma </h2>
 
