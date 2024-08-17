@@ -16,20 +16,21 @@ Requisitos:
 •	Los números mostrados deben formar una tabla de multiplicación.*/
 
 
-public class Pruebas {
+public class TablaMultiplicar {
 
     public static int[][] MULTIPLICATION_TABLE;
 
     public static void main(String[] args) {
         //escribe aquí tu código
+                                    // i   j
         MULTIPLICATION_TABLE = new int[10][10];
 
-        for (int i = 0; i < MULTIPLICATION_TABLE.length; i++) {
-            for (int j = 0; j < MULTIPLICATION_TABLE[i].length; j++) {
-                MULTIPLICATION_TABLE[i][j] = (i + 1) * (j + 1); //asignamos valores a [i] y [j]
-                System.out.print(MULTIPLICATION_TABLE[i][j] + " ");
+        for (int i = 0; i < MULTIPLICATION_TABLE.length; i++) {  //recorremos el [i]
+            for (int j = 0; j < MULTIPLICATION_TABLE[i].length; j++) { //recorremos [j] en base a [i]
+                MULTIPLICATION_TABLE[i][j] = (i + 1) * (j + 1); //asignamos los valores a [i] y [j] con el cálculo
+                System.out.print(MULTIPLICATION_TABLE[i][j] + " "); //imprimimos los valores de [i][j]
             }
-            System.out.println();
+            System.out.println(); //para salto de linea
         }
     }
 }
@@ -50,8 +51,3 @@ public static int[][] MULTIPLICATION_TABLE = new int[10][10];
     }
 }
 */
-
-
-
-
-
