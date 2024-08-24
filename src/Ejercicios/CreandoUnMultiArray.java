@@ -94,4 +94,18 @@ Podemos revisarlo creando variables que recorran cada capa
     }
 }
 
+Para ver en consola el resultado de cada ubicación, se puede ver en consola así:
+System.out.println("Elemento en capa " + i + " fila " + j + " columna " + k + " = " + multiArray[i][j][k]);
+Elemento en capa 0 fila 0 columna 0 = 4
+Elemento en capa 0 fila 0 columna 1 = 8
+Elemento en capa 0 fila 0 columna 2 = 15
+Elemento en capa 0 fila 1 columna 0 = 16
+Elemento en capa 1 fila 0 columna 0 = 23
+Elemento en capa 1 fila 0 columna 1 = 42
+Elemento en capa 2 fila 0 columna 0 = 1
+Elemento en capa 2 fila 1 columna 0 = 2
+Elemento en capa 2 fila 2 columna 0 = 3
+Elemento en capa 2 fila 3 columna 0 = 4
+Elemento en capa 2 fila 3 columna 1 = 5
+
  */
