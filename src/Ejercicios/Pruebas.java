@@ -1,55 +1,30 @@
 package Ejercicios;
-/*Inicialice la matriz MULTIPLICATION_TABLE como una new int[10][10], llénela con una tabla de multiplicación y luego
- muéstrela en la consola de la siguiente manera:
-1 2 3 4 …
-2 4 6 8 …
-3 6 9 12 …
-4 8 12 16 …
-…
-
-Los números en cada línea están separados por un espacio.
+/*En el main(String[]) método, muestre todos los números en el multiArray de tres dimensiones.
 
 Requisitos:
-•	En el método main, el array MULTIPLICATION_TABLE debe rellenarse con una tabla de multiplicación.
-•	El texto mostrado debe contener 10 líneas.
-•	Cada línea mostrada debe contener 10 números separados por un espacio.
-•	Los números mostrados deben formar una tabla de multiplicación.*/
-
+•	La clase Solution debe tener una variable multiArray int[][][] static y public.
+•	En el método main (String []), muestra todos los números en multiArray.*/
 
 public class Pruebas {
 
-    public static int[][] MULTIPLICATION_TABLE;
+    public static int[][] multiArray = new int[][]{{0, 8, 15, 29, 393}, {10, 20,}};
+
 
     public static void main(String[] args) {
         //escribe aquí tu código
-        MULTIPLICATION_TABLE = new int[10][10];
 
-        for (int i = 0; i < MULTIPLICATION_TABLE.length; i++) {
-            for (int j = 0; j < MULTIPLICATION_TABLE[i].length; j++) {
-                MULTIPLICATION_TABLE[i][j] = (i + 1) * (j + 1); //asignamos valores a [i] y [j]
-                System.out.print(MULTIPLICATION_TABLE[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-}
-
-/*   MI CÓDIGO, MAL POR NO MODIFICAR ELEMENTOS DEL ARRAY, NO SE CAMBIÓ LOS VALORES DEL ARRAY
-AL EJECUTAR, SE VE IGUAL EN CONSOLA, PERO NO SE HA MODIFICADO LOS ELEMENTOS DEL ARRAY, PRACTICAR ESTO
-
-public static int[][] MULTIPLICATION_TABLE = new int[10][10];
-
-    public static void main(String[] args) {
-        //escribe aquí tu código
-         for (int i = 1; i < MULTIPLICATION_TABLE.length + 1; i++) {
-            System.out.println("");
-            for (int j = 1; j < MULTIPLICATION_TABLE.length + 1; j++) {
-                System.out.print(j * i + "\t");
+        if (multiArray[0][0] >= 0) {
+            for (int i = 0; i < multiArray.length; i++) {
+                for (int j = 0; j < multiArray[i].length; j++) {
+                    System.out.println("Elemento en fila " + i + " columna " + j + " = " + multiArray[i][j]);
+                }
             }
         }
     }
 }
-*/
+
+
+
 
 
 

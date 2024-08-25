@@ -6,39 +6,23 @@ Requisitos:
 •	En el método main (String []), muestra todos los números en multiArray.*/
 
 public class CreandoUnMultiArray {
-    public static int[][][] multiArray = new int[][][]{ // new int[][][]{{{4, 8, 15}, {16}}, {{23, 42}, {}}, {{1}, {2}, {3}, {4, 5}}};
-        //desglose del array para entender mejor
-        {
-                {4, 8, 15},// multiArray[0][0]
-                {16}// multiArray[0][1]
-        },
-
-        {
-                {23, 42}, {}// multiArray[1][0]
-        },
-
-        {
-                {1},// multiArray[2][0]
-                {2},// multiArray[2][1]
-                {3},// multiArray[2][2]
-                {4, 5} // multiArray[2][3]
-        }
-    };
+    public static int[][][] multiArray = new int[][][]{{{4, 8, 15}, {16}}, {{23, 42}, {}}, {{1}, {2}, {3}, {4, 5}}};
 
     public static void main(String[] args) {
         //escribe aquí tu código
 
-        if (multiArray[0][0][0] > 0) {
-            for (int i = 0; i < multiArray.length; i++) {
-                for (int j = 0; j < multiArray[i].length; j++) {
-                    for (int k = 0; k < multiArray[i][j].length; k++) {
-                        System.out.print(multiArray[i][j][k] + " ");
-                    }
+        for (int i = 0; i < multiArray.length; i++) {
+            for (int j = 0; j < multiArray[i].length; j++) {
+                for (int k = 0; k < multiArray[i][j].length; k++) {
+                    System.out.println("Elemento en capa " + i + " fila " + j + " columna " + k + " = " + multiArray[i][j][k]);
                 }
             }
         }
     }
 }
+
+
+// al final no hace falta el if, había algún error en los for porque ahora si los recorre correctamente. mirado con luis
 
 /*Vamos a explicar esto;
 
