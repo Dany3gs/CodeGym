@@ -26,11 +26,14 @@ public class CreandoUnMultiArray {
 
 /*Vamos a explicar esto;
 
-El arreglo multidimensional int[][][] multiArray = new int[][][]{{{4, 8, 15}, {16}}, {{23, 42}, {}}, {{1}, {2}, {3}, {4, 5}}};
+Simplemente con ir anidando los bucles for vamos recorriendo cada fila independiente de la cantidad de elementos que
+tiene
+
 
 Primer nivel ([capas]): Corresponde a las capas o la "profundidad" del arreglo.
 Segundo nivel ([][filas]): Corresponde a las filas dentro de cada capa.
 Tercer nivel ([][][columnas]): Corresponde a las columnas dentro de cada fila.
+
 Para entender mejor cómo se organizan estos corchetes, descompongamos el arreglo:
 
 Primer conjunto de llaves { ... }: Representa una capa completa.
@@ -41,8 +44,7 @@ new int[][][]{  0/{{4, 8, 15}, {16}}/          capa 0 tiene dos filas de dif tam
                 1/{{23, 42}, {}}/              capa 1 tiene dos filas de dif tamaño, pero la {} no la cuenta.
                 2/{{1}, {2}, {3}, {4, 5}}/     capa 2 tiene cuatro filas de dif tamaño
 
-Para acceder a los elementos del array por capas, se hacen bucles anidados, para comprobar la longitud de cada fila,
-usamos un if donde filtre si el primer elemento del array es [0][0][0] > 0? y con los bucles vamos recorriendo el array
+Para acceder a los elementos del array por capas, se hacen bucles anidados, con los bucles vamos recorriendo el array
 capa por capa, y al final imprimimos por consola en cada iteración cada elemento
 System.out.print(multiArray[i][j][k] + " ");
 
@@ -60,11 +62,11 @@ Podemos revisarlo creando variables que recorran cada capa
 
          Verificación para la primera dimensión
         if (i >= 0 && i < multiArray.length) {
-             Verificación para la segunda dimensión
+             //Verificación para la segunda dimensión
             if (j >= 0 && j < multiArray[i].length) {
-                 Verificación para la tercera dimensión
+                 //Verificación para la tercera dimensión
                 if (k >= 0 && k < multiArray[i][j].length) {
-                     Acceso seguro al elemento
+                     //Acceso seguro al elemento
                     System.out.println("Elemento en multiArray[" + i + "][" + j + "][" + k + "] = " + multiArray[i][j][k]);
                 } else {
                     System.out.println("Índice 'k' fuera de los límites.");
