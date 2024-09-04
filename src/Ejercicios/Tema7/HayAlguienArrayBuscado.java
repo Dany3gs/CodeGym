@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicios.Tema7;
 
 /*Implemente el método main(String[]) , que imprime true en la consola si el elemento está contenido en la matriz pasada,
 de lo contrario falso.
