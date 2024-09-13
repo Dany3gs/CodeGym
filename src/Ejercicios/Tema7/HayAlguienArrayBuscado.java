@@ -24,7 +24,7 @@ public class HayAlguienArrayBuscado {
         public static void main(String[] args) {
 
         //primero hay que crear una array para copiar el original y ordenarlo
-ø       int[] copy = Arrays.copyOf(array, array.length);
+       int[] copy = Arrays.copyOf(array, array.length);
         Arrays.sort(copy);  
         //luego se crea variable que busque con Arrays.binarySearch() si se encuentra element entre los elementos
         int index = Arrays.binarySearch(copy, element);
