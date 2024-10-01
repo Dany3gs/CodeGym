@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 public class SumarNumPares {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
-        int start = scanner.nextInt();
         int end = scanner.nextInt();
         int multiple = scanner.nextInt();
 

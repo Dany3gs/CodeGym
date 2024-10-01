@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Suma {
 
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         //asignamos la variable line para la entrada de usuario

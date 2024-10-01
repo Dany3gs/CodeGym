@@ -23,7 +23,7 @@ Requisitos:
 •	La salida del programa en la consola debe coincidir con las condiciones de la tarea.
 */
 
-import Ejercicios.Pruebas;
+//import Ejercicios.Pruebas;
 
 public class CiudadesEnormes {
     //solo hay que indicar en printCityPopulation(String city, double population) que la variable a imprimir es la

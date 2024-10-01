@@ -31,6 +31,7 @@ import java.util.Scanner;
 
 public class SegundoNumMenor {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner console = new Scanner(System.in);
 
         int numMin1 = Integer.MAX_VALUE;

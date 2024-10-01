@@ -25,7 +25,7 @@ import java.util.Scanner;
 public class NuncaHayDemasiado {
 
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         int number = scanner.nextInt();

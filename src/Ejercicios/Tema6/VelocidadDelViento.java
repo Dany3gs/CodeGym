@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 public class VelocidadDelViento {
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         int windSpeed;

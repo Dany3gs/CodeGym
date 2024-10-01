@@ -11,6 +11,7 @@ public class EliminarStringDuplicados {
     public static String[] strings;
 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
 
         strings = new String[6];
@@ -49,8 +50,8 @@ public class EliminarStringDuplicados {
 
         // Bucle for que recorre el array 'strings' para imprimir cada elemento.
         // Imprime 'null' si el valor en la posición actual es 'null'.
-        for (int i = 0; i < strings.length; i++) {
-            System.out.print(strings[i] + ", ");
+        for (String string : strings) {
+            System.out.print(string + ", ");
         }
     }
 }

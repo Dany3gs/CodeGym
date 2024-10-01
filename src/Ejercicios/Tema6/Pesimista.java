@@ -25,7 +25,7 @@ import java.util.Scanner;
 
 public class Pesimista {
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         double glass = 0.5;

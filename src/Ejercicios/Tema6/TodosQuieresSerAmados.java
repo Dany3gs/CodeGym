@@ -24,7 +24,7 @@ public class TodosQuieresSerAmados {
 
 
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         String text = " loves me.";

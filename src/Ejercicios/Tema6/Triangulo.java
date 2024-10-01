@@ -1,4 +1,6 @@
-package Ejercicios.Tema6;/*Vamos a escribir un programa que calcule la posibilidad de la existencia de un triángulo basado en las longitudes
+package Ejercicios.Tema6;
+
+/*Vamos a escribir un programa que calcule la posibilidad de la existencia de un triángulo basado en las longitudes
 de sus lados.
 
 Para hacer esto, necesitas:
@@ -15,17 +17,18 @@ lados existe. Si al menos una comparación indica que el lado es mayor o igual q
 entonces un triángulo con estos lados no existe.
 * */
 
-import java.util.Scanner;
-
 public class Triangulo {
     public static void main(String[] args) {
 
-        int num1 = 0, num2 = 0, num3 = 0;
+        /*int num1 = 0, num2 = 0, num3 = 0;
+
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("ingrese tres longitudes: ");
         num1 = sc.nextInt();
         num2 = sc.nextInt();
-        num3 = sc.nextInt();
+        num3 = sc.nextInt();*/
 
     }
 }
+//pendiente

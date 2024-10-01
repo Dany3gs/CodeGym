@@ -24,6 +24,7 @@ import java.util.Scanner;
 public class MinimoNumEnt {
     public static void main(String[] args) {
         //escribe aquí tu código
+        @SuppressWarnings("resource")
         Scanner console = new Scanner(System.in);
 
         int numMin = Integer.MAX_VALUE;
