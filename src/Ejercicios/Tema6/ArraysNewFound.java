@@ -10,6 +10,7 @@ public class ArraysNewFound {
 
     public static void main(String[] args) {
         //escribe aquí tu código
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         String[] ciudades = {"Avila", "Madrid", "Las Palmas"};
 

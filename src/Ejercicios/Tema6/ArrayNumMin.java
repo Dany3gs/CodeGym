@@ -7,7 +7,8 @@ public class ArrayNumMin {
 
     public static void main(String[] args) {
         //escribe aquí tu código
-
+        
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         //creamos una variable para que guarde el número de elementos que queremos en el array
         int numerosIngresados = sc.nextInt();

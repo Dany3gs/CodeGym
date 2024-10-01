@@ -28,8 +28,12 @@ public class AreaCiruclo {
     
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int radio;
+
+        System.out.println("Introduzca un valor para calcular el área de un círculo: ");
+
         radio = sc.nextInt();
         double area = 3.14 * radio * radio;
         int areaInt = (int) (area);

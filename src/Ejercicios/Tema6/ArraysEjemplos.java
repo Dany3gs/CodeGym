@@ -1,15 +1,12 @@
 package Ejercicios.Tema6;
 
-import java.util.Scanner;
-import java.util.SortedMap;
-
 public class ArraysEjemplos {
 
     public static void main(String[] args) {
 
         //recorrer un array
 
-       /* int[] recorrer = new int[5];
+    /* int[] recorrer = new int[5];
         String[] ciudades = {"a","b","c","d","e"};
         for (int i = 0; i < recorrer.length; i++) {
             System.out.println(recorrer[i]); //output 0 0 0 0 0
