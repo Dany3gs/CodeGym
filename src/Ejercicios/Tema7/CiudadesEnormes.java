@@ -40,6 +40,6 @@ public class CiudadesEnormes {
 
     public static void printCityPopulation(String city, double population) {
         System.out.println("La población de " + city + " es de " + population + " millones.");
-        System.out.println("Pero en la ciudad más poblada, " + Pruebas.city + ", la población es de " + Pruebas.population + " millones.");
+        //System.out.println("Pero en la ciudad más poblada, " + Pruebas.city + ", la población es de " + Pruebas.population + " millones.");
     }
 }
