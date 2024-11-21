@@ -40,13 +40,11 @@ public class ClaseChatarraParte1 {
         //ejemplo si "a" tuviera el valor de 20 grados
         double grados = 20;
 
-        System.out.println("Si " +"\"" + "a" +"\""  + " tiene un valor en grados de: " + grados);
+        System.out.println("Si " + "\"" + "a" + "\""  + " tiene un valor en grados de: " + grados);
         //pasamos de grados a radianes
         grados=Math.toRadians(grados);
 
-        System.out.println("\"" + "A"+"\"" +" equivale en radianes : " + grados); //output 0.3490658503988659
-
-
+        System.out.println("\"" + "A" + "\"" + " equivale en radianes : " + grados); //output 0.3490658503988659
     }
 }
 
