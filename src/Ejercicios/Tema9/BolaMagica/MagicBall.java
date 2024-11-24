@@ -32,6 +32,7 @@ public class MagicBall {
 
     public static String getPrediction() {
         int random = new Random().nextInt(9);
+
         if (random == 0) {
             return CERTAIN;
         } else if (random == 1) {
@@ -51,5 +52,26 @@ public class MagicBall {
         } else {
             return null;
         }
+//        switch (random){
+//            case 0: random = 0;
+//                return CERTAIN;
+//            case 1: random = 1;
+//                return DEFINITELY;
+//            case 2: random = 2;
+//                return MOST_LIKELY;
+//            case 3: random = 3;
+//                return OUTLOOK_GOOD;
+//            case 4: random = 4;
+//                return ASK_AGAIN_LATER;
+//            case 5: random = 5;
+//                return TRY_AGAIN;
+//            case 6: random = 6;
+//                return MOST_LIKELY;
+//            case 7: random = 7;
+//                return NO;
+//            case 8: random = 8;
+//                return VERY_DOUBTFUL;
+//        }
+//        return "";
     }
 }
