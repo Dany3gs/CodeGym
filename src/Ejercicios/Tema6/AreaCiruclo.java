@@ -41,7 +41,7 @@ public class AreaCiruclo {
             System.out.println();
 
         } else {
-            System.out.println(areaInt);
+            System.out.println("el area del circulo es " + areaInt);
         }
 
     }
