@@ -3,28 +3,15 @@ package Ejercicios;
 import java.util.Random;
 import java.util.Scanner;
 
+
 public class Pruebas {
-
-    public static boolean getBNumberRandom() {
-        Random boleano = new Random();
-        boolean bolean = boleano.nextBoolean();
-        return bolean;
-    }
-
-
     public static void main(String[] args) {
-
-
-
-        for (int i = 0; i < 5; i++)
-        {
-            System.out.println(getBNumberRandom());
-        }
-
-        }
+        int x = 0b1010111111001111;
+        int i = 0xAFCF;
+        System.out.println(x);
+        System.out.println(i);
     }
 
 
 
-
-
+}
