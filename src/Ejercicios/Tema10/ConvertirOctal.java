@@ -64,7 +64,7 @@ public class ConvertirOctal {
             i++;
         }
 
-        return octalNumer;
+        return octalNumber;
     }
 
     public static int toDecimal(int octalNumber) {
