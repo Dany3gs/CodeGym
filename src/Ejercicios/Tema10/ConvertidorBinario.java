@@ -45,35 +45,43 @@ public class ConvertidorBinario {
         System.out.println("Binary number " + binaryNumber + " is equal to decimal number " + toDecimal(binaryNumber));
     }
 
-    public static double toBinary(int decimalNumber) {
+    public static String toBinary(int decimalNumber) {
         //escribe aquí tu código
+        if (decimalNumber <= 0) {
 
-        if (decimalNumber != 0){
-            System.out.println(" ");
+            return "";
         }
 
-        double binariNumber = 0;
-        int i = 0;
+        String binary = "";
+
         while (decimalNumber != 0) {
-            int resto = decimalNumber % 2;
-            binariNumber += resto * Math.pow(2, i);
+            int remainder = decimalNumber % 2;
+            binary = remainder + binary;
             decimalNumber /= 2;
-            i++;
         }
-        return binariNumber;
+
+        return binary;
     }
 
     public static int toDecimal(String binaryNumber) {
         //escribe aquí tu código
-        if ("".equals(binaryNumber) || binaryNumber == null ) {
+        if (binaryNumber == null || binaryNumber.isEmpty()) {
             return 0;
         }
-        int decimal = 0;
-        int i = 0;
-        for (int i = 0; i < binaryNumber.length(); i++) {
-            decimal = binaryNumber
+        int decimalNumber = 0;
+        int length = binaryNumber.length();
+
+        // Iterar sobre cada bit del número binario
+        for (int i = 0; i < length; i++) {
+            // Obtener el carácter en la posición actual
+            char bit = binaryNumber.charAt(length - i - 1); // Se procesa de derecha a izquierda
+            if (bit == '1') {
+                // Agregar el valor posicional del bit
+                decimalNumber += Math.pow(2, i);
+            }
         }
-        return ;
-    }
+        return decimalNumber;
     }
 }
+
+//ok Codegym
