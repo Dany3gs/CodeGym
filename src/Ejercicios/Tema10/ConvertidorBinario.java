@@ -45,45 +45,35 @@ public class ConvertidorBinario {
         System.out.println("Binary number " + binaryNumber + " is equal to decimal number " + toDecimal(binaryNumber));
     }
 
-    public static String toBinary(int decimalNumber) {
+    public static double toBinary(int decimalNumber) {
         //escribe aquí tu código
-        if (decimalNumber <= 0) {
 
-            return "";
+        if (decimalNumber != 0){
+            System.out.println(" ");
         }
 
-        String binary = "";
-
-        while (decimalNumber != 0){
-            int remainder = decimalNumber % 2;
-            binary = remainder + binary;
+        double binariNumber = 0;
+        int i = 0;
+        while (decimalNumber != 0) {
+            int resto = decimalNumber % 2;
+            binariNumber += resto * Math.pow(2, i);
             decimalNumber /= 2;
+            i++;
         }
-
-        return binary;
+        return binariNumber;
     }
 
-    public static int toDecimal(String binaryNumber)  {
+    public static int toDecimal(String binaryNumber) {
         //escribe aquí tu código
-        if (binaryNumber == null || binaryNumber.isEmpty()) {
+        if ("".equals(binaryNumber) || binaryNumber == null ) {
             return 0;
         }
-        int decimalNumber = 0;
-        int length = binaryNumber.length();
-
-        // Iterar sobre cada bit del número binario
-        for (int i = 0; i < length; i++) {
-            // Obtener el carácter en la posición actual
-            char bit = binaryNumber.charAt(length - i - 1); // Se procesa de derecha a izquierda
-            if (bit == '1') {
-                // Agregar el valor posicional del bit
-                decimalNumber += (int) Math.pow(2, i);
-            } else if (bit != '0') {
-                // Manejar caracteres no binarios
-                throw new IllegalArgumentException("El número binario contiene caracteres inválidos: " + bit);
-            }
+        int decimal = 0;
+        int i = 0;
+        for (int i = 0; i < binaryNumber.length(); i++) {
+            decimal = binaryNumber
         }
-        return decimalNumber;
+        return ;
+    }
     }
 }
-// ok Codegym
