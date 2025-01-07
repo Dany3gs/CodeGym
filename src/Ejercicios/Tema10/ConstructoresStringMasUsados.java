@@ -98,6 +98,7 @@ public class ConstructoresStringMasUsados {
 		
 		Cree un objeto Scanner.
 		Lea una línea desde la consola.
+		Input  https://domain.com/about/reviews
 
 		Convierta una cadena en una matriz de caracteres.
 		Repita los caracteres.
@@ -117,7 +118,9 @@ public class ConstructoresStringMasUsados {
 				chars[i] = '\\';
 		
 		String result = new String(chars);
-		System.out.println(result);
+		System.out.println(result); // Output https:\\domain.com\about\reviews
+
+		console.close();
 	
 		/*Solución 2: — usando los métodos split()yjoin()
 		*Cree un objeto Scanner.
@@ -134,9 +137,11 @@ public class ConstructoresStringMasUsados {
 		
 		String[] array = path1.split("/");
 		String result1 = String.join("\\", array);
-		System.out.println(result1);
-		
+		System.out.println(result1);// Output https:\\domain.com\about\reviews
+
+		console1.close();
 		/*Solución 3: — usando el replace(char oldChar, char newChar)método
+
 		Cree un objeto Scanner.
 		Lea una línea desde la consola.
 		
@@ -149,6 +154,7 @@ public class ConstructoresStringMasUsados {
 		
 		String result2 = path2.replace('/', '\\');
 		
-		System.out.println(result2);
+		System.out.println(result2);// Output https:\\domain.com\about\reviews
+		console2.close();
 	}
 }
