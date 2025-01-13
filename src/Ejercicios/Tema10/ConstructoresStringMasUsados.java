@@ -2,6 +2,9 @@ package Ejercicios.Tema10;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.StringTokenizer;
+
+import static java.lang.String.format;
 
 public class ConstructoresStringMasUsados {
 	
@@ -99,7 +102,8 @@ public class ConstructoresStringMasUsados {
 		
 		Cree un objeto Scanner.
 		Lea una línea desde la consola.
-		Input  https://domain.com/about/reviews
+		// TODO
+		Input https://domain.com/about/reviews
 
 		Convierta una cadena en una matriz de caracteres.
 		Repita los caracteres.
@@ -156,6 +160,63 @@ public class ConstructoresStringMasUsados {
 		String result2 = path2.replace('/', '\\');
 		
 		System.out.println(result2);// Output https:\\domain.com\about\reviews
+		console2.nextLine();
 		console2.close();
+		
+		
+		// split(regex dilimitador) método
+		
+		/* este método puede ser complejo si tenemos muchas regex, dificultando su lectura de entender si tenemos
+			que dividir por espacio u otro separador que nos de pié a muchos elementos, mejor usar la clase
+			StringTokenizer()
+		
+		Es un método que nos permite dividir un string, partiendo la cadena en tantos elementos de un array conlleve */
+	
+		String[] nombreArray = nombre.split(" ");
+		System.out.println(Arrays.toString(nombreArray));
+		// [Méto, s constructores más usa, s con la clase String. Esta frase es para unir a nombre.] regex "do"
+		
+		// Sin espacios " "
+		// [Métodos, constructores, más, usados, con, la, clase, String., Esta, frase, es, para, unir, a, nombre.]
+		
+		System.out.println(nombreArray.length); // 15
+		
+		// StringTokenizer clase
+		
+		/* Divide una cadena en subcadenas, sin usar regex, se le pasa la variable String y el delimitador como parámetro
+			Tiene un CONSTRUCTOR Y DOS METODOS IMPORTANTES, string nextToken() y un boolean hasMoreTokens()
+			Parecida a la clase Scanner con nextLine() y hasNextLine()
+			Tenga en cuenta que cada carácter de la cadena que se pasa como la segunda cadena al StringTokenizerconstructor
+			 se considera un separador.
+		* */
+		
+		String name = "helena es boba, o no es boba?";
+		StringTokenizer nameHelen = new StringTokenizer(name, ",");
+		
+		while (nameHelen.hasMoreTokens()) {
+			String nombreToken = nameHelen.nextToken();
+			System.out.print(nombreToken);
+			// output helena es boba
+			// o no es boba?
+			
+		}
+		
+		// String.format() método estático y StringFormatter clase
+		/* Con este método usamos los delimitadores como en los printf() %s para strings, %d para números, en vez de
+			crear el soutdf, podemos darle el formato con este método
+			Para Arrays no creo que sea la opción óptima
+		*/
+		
+		int[] anos = new int []{14, 42};
+		String[] nombres = new String[]{"Helena", "Dani"};
+		
+		// Ejemplo codegym
+		String name1 = "Amigo";
+		int age = 12;
+		String friend = "Diego";
+		int weight = 200;
+		
+		String datos = String.format("Nombre: %s,\nEdad: %d,\nNombre: %s,\nEdad: %d,\n",nombres[0],anos[0], nombres[1], anos[1]);
+		System.out.print(datos);
 	}
 }
