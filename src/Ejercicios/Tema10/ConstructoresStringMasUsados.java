@@ -184,20 +184,24 @@ public class ConstructoresStringMasUsados {
 		// StringTokenizer clase
 		
 		/* Divide una cadena en subcadenas, sin usar regex, se le pasa la variable String y el delimitador como parámetro
-			Tiene un CONSTRUCTOR Y DOS METODOS IMPORTANTES, string nextToken() y un boolean hasMoreTokens()
+			Tiene un CONSTRUCTOR Y TRES METODOS IMPORTANTES,
+		---	StringTokenizer stringTokenizer = new StringTokenizer(query, delimiter);
+		---	string nextToken()
+		--- boolean hasMoreTokens()
+		--- int countTokens()
 			Parecida a la clase Scanner con nextLine() y hasNextLine()
 			Tenga en cuenta que cada carácter de la cadena que se pasa como la segunda cadena al StringTokenizerconstructor
 			 se considera un separador.
 		* */
 		
-		String name = "helena es boba, o no es boba?";
-		StringTokenizer nameHelen = new StringTokenizer(name, ",");
+		String name = "helena es guapa, o no es guapa?";
+		StringTokenizer nameHelen = new StringTokenizer(name, ","); // Delimitamos por coma
 		
 		while (nameHelen.hasMoreTokens()) {
 			String nombreToken = nameHelen.nextToken();
 			System.out.print(nombreToken);
-			// output helena es boba
-			// o no es boba?
+			// output helena es guapa
+			// o no es guapa?
 			
 		}
 		
